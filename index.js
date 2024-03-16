@@ -2,11 +2,11 @@
 
 import { parseJSON } from "./jsonParse.js";
 import { abortFetch } from "./fetchAbort.js";
-import { deleteMethod } from "./HTTPmethods.js";
+import { getMethod } from "./HTTPmethods.js";
 
 // parseJSON();
-// abortFetch();
-// getMethod();
+abortFetch();
+getMethod();
 // postMethod();
 // putMethodForForm();
 // putMethod();

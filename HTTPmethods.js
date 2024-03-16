@@ -1,6 +1,6 @@
 "use strict";
 
-/*function getMethod() {
+function getMethod() {
   async function getJSON() {
     try {
       const response = await fetch("http://localhost:5000/", {
@@ -19,7 +19,7 @@
   getJSON();
 }
 
-export { getMethod };*/
+export { getMethod };
 
 /*function postMethod() {
   async function postJSON(data) {
