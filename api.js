@@ -10,7 +10,7 @@ const server = http.createServer((request, response) => {
 server.listen(5000, () => console.log("server is running"));*/
 
 //Fetch data from the server using GET method2️⃣
-/*const http = require("http");
+const http = require("http");
 const server = http.createServer();
 
 server.on("request", (req, res) => {
@@ -23,7 +23,7 @@ server.on("request", (req, res) => {
   res.end(user);
 });
 
-server.listen(5000, () => console.log("server is running"));*/
+server.listen(5000, () => console.log("server is running"));
 
 //Receive data from the client using POST method3️⃣
 /*const http = require("http");
